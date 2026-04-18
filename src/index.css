@@ -86,7 +86,7 @@ body {
 
 .wrapper {
   width: min(1160px, 92%);
-  margin: 106px auto 28px;
+  margin: 48px auto 28px;
 }
 
 .glass-nav {
@@ -664,7 +664,7 @@ footer {
 
 @media (max-width: 980px) {
   .wrapper {
-    margin-top: 92px;
+    margin-top: 36px;
   }
 
   .hero {
@@ -687,13 +687,12 @@ footer {
 @media (max-width: 768px) {
   .nav-container {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
   }
 
   .nav-links {
-    width: 100%;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .projects-grid {
